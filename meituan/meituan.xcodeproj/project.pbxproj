@@ -14,6 +14,7 @@
 		6899AC5623CDCC3B00BD72AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6899AC5523CDCC3B00BD72AB /* Assets.xcassets */; };
 		6899AC5923CDCC3B00BD72AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6899AC5723CDCC3B00BD72AB /* LaunchScreen.storyboard */; };
 		6899AC5C23CDCC3B00BD72AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6899AC5B23CDCC3B00BD72AB /* main.m */; };
+		6899AC6423CDCC7800BD72AB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6899AC6323CDCC7800BD72AB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6899AC5823CDCC3B00BD72AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6899AC5A23CDCC3B00BD72AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6899AC5B23CDCC3B00BD72AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6899AC6223CDCC7800BD72AB /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6899AC6323CDCC7800BD72AB /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				6899AC4D23CDCC3900BD72AB /* SceneDelegate.m */,
 				6899AC4F23CDCC3900BD72AB /* ViewController.h */,
 				6899AC5023CDCC3900BD72AB /* ViewController.m */,
+				6899AC6223CDCC7800BD72AB /* Person.h */,
+				6899AC6323CDCC7800BD72AB /* Person.m */,
 				6899AC5223CDCC3900BD72AB /* Main.storyboard */,
 				6899AC5523CDCC3B00BD72AB /* Assets.xcassets */,
 				6899AC5723CDCC3B00BD72AB /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				6899AC5123CDCC3900BD72AB /* ViewController.m in Sources */,
 				6899AC4B23CDCC3900BD72AB /* AppDelegate.m in Sources */,
+				6899AC6423CDCC7800BD72AB /* Person.m in Sources */,
 				6899AC5C23CDCC3B00BD72AB /* main.m in Sources */,
 				6899AC4E23CDCC3900BD72AB /* SceneDelegate.m in Sources */,
 			);
